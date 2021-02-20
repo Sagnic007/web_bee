@@ -1,0 +1,14 @@
+ .wordart {
+  text-align: center;
+  height: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ed217c;
+  animation: wordart 4s linear infinite;
+  font-size: 100px;
+}
+@keyframes wordart {
+  0% {color: #ed217c;}
+  25% {color: #f3db53;}
+  50% {color: #68bfae;}
+  100% {color: #95d2d7;}
+}
